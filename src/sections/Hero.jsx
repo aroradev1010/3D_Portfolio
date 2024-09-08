@@ -6,6 +6,7 @@ import CanvasLoader from "../components/CanvasLoader";
 import { Leva, useControls } from "leva";
 import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "../constants/index.js";
+import Target from "../components/Target.jsx";
 const Hero = () => {
   // const controls = useControls("HackerRoom", {
   //   positionX: {
@@ -71,7 +72,7 @@ const Hero = () => {
               rotation={[0.2, -Math.PI, 0]}
             />
             <group>
-              
+              <Target position={sizes.targetPosition} />
             </group>
             <ambientLight intensity={1} />
             <directionalLight intensity={0.5} position={[10, 10, 10]} />

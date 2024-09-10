@@ -11,6 +11,7 @@ import ReactLogo from "../components/ReactLogo.jsx";
 import Cube from "../components/Cube.jsx";
 import HeroCamera from "../components/HeroCamera.jsx";
 import Button from "../components/Button.jsx";
+import Headphones from "../components/Headphones.jsx";
 const Hero = () => {
   // const controls = useControls("HackerRoom", {
   //   positionX: {
@@ -72,19 +73,20 @@ const Hero = () => {
 
             <HeroCamera isMobile={isMobile}>
               <HackerRoom
-                scale={sizes.deskScale}
-                position={sizes.deskPosition}
-                rotation={[0.2, -Math.PI, 0]}
+                scale={6}
+                position={[2, -2, 4]}
+                rotation={[0, 0, 0]}
               />
             </HeroCamera>
             <group>
               <Target position={sizes.targetPosition} />
+              <Headphones position={[0, 0, 10]} />
               <ReactLogo position={sizes.targetPosition} />
               <Cube position={sizes.cubePosition} />
               <Ring position={sizes.ringPosition} />
             </group>
-            <ambientLight intensity={1} />
-            <directionalLight intensity={0.5} position={[10, 10, 10]} />
+            <ambientLight intensity={4} />
+            <directionalLight intensity={1} position={[10, 10, 10]} />
           </Suspense>
         </Canvas>
       </div>

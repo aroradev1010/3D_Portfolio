@@ -6,12 +6,12 @@ import CanvasLoader from "../components/CanvasLoader";
 import { Leva, useControls } from "leva";
 import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "../constants/index.js";
-import Target from "../components/Target.jsx";
-import ReactLogo from "../components/ReactLogo.jsx";
-import Cube from "../components/Cube.jsx";
+
 import HeroCamera from "../components/HeroCamera.jsx";
 import Button from "../components/Button.jsx";
 import Headphones from "../components/Headphones.jsx";
+import PlaystationVR from "../components/PlaystationVR.jsx";
+import MrPotatoHead from "../components/PotatoHead.jsx";
 const Hero = () => {
   // const controls = useControls("HackerRoom", {
   //   positionX: {
@@ -79,11 +79,18 @@ const Hero = () => {
               />
             </HeroCamera>
             <group>
-              <Target position={sizes.targetPosition} />
-              <Headphones position={[0, 0, 10]} />
-              <ReactLogo position={sizes.targetPosition} />
-              <Cube position={sizes.cubePosition} />
-              <Ring position={sizes.ringPosition} />
+              {/* <Target position={sizes.targetPosition} /> */}
+              <Headphones
+                position={[4.5, 0, 10]}
+                scale={0.28}
+                rotation={[0.5, 1, -0.4]}
+              />
+              <PlaystationVR
+                scale={0.3}
+                position={[-8.5, -5, 0]}
+                rotation={[-0.4, 0.5, 0.2]}
+              />
+              <MrPotatoHead scale={0.2} position={[-9.5, 3.5, 0]} />
             </group>
             <ambientLight intensity={4} />
             <directionalLight intensity={1} position={[10, 10, 10]} />

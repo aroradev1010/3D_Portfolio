@@ -1,4 +1,4 @@
-import { PerspectiveCamera } from "@react-three/drei";
+import { PerspectiveCamera, Ring } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import React, { Suspense } from "react";
 import HackerRoom from "../components/HackerRoom";
@@ -7,6 +7,8 @@ import { Leva, useControls } from "leva";
 import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "../constants/index.js";
 import Target from "../components/Target.jsx";
+import ReactLogo from "../components/ReactLogo.jsx";
+import Cube from "../components/Cube.jsx";
 const Hero = () => {
   // const controls = useControls("HackerRoom", {
   //   positionX: {
@@ -73,6 +75,9 @@ const Hero = () => {
             />
             <group>
               <Target position={sizes.targetPosition} />
+              <ReactLogo position={sizes.targetPosition} />
+              <Cube position={sizes.cubePosition} />
+              <Ring position={sizes.ringPosition} />
             </group>
             <ambientLight intensity={1} />
             <directionalLight intensity={0.5} position={[10, 10, 10]} />

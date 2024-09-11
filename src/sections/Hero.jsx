@@ -59,10 +59,10 @@ const Hero = () => {
     <section className="min-h-screen w-full flex flex-col relative" id="home">
       <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
         <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
-          Hi, I am Adrian <span className="waving-hand">👋</span>
+          Hi, I am Dev <span className="waving-hand">👋</span>
         </p>
         <p className="hero_tag text-gray_gradient">
-          Building Products & Brands
+          Build Tomorrow’s Solutions Today
         </p>
       </div>
       <div className="w-full h-full absolute inset-0">
@@ -74,7 +74,7 @@ const Hero = () => {
             <HeroCamera isMobile={isMobile}>
               <HackerRoom
                 scale={6}
-                position={[2, -2, 4]}
+                position={[2.4, -3, 4]}
                 rotation={[0, 0, 0]}
               />
             </HeroCamera>
@@ -90,9 +90,9 @@ const Hero = () => {
                 position={[-8.5, -5, 0]}
                 rotation={[-0.4, 0.5, 0.2]}
               />
-              <MrPotatoHead scale={0.2} position={[-9.5, 3.5, 0]} />
+              <MrPotatoHead scale={0.2} position={[-10.5, 3.5, 0]} />
             </group>
-            <ambientLight intensity={4} />
+            <ambientLight intensity={2} />
             <directionalLight intensity={1} position={[10, 10, 10]} />
           </Suspense>
         </Canvas>

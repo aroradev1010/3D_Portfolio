@@ -16,15 +16,15 @@ const MrPotatoHead = (props) => {
   useGSAP(() => {
     // Animate position (up and down)
     gsap.to(targetRef.current.position, {
-      y: targetRef.current.position.y - 0.5,
-      duration: 1.4,
+      y: targetRef.current.position.y - 0.2,
+      duration: 1.2,
       repeat: -1,
       yoyo: true,
     });
   });
   const { nodes, materials } = useGLTF("/models/mr_potato_head.glb");
   return (
-    <group ref={targetRef} {...props} dispose={null}>
+    <group ref={targetRef} {...props} position={[-8, 2, 0]} dispose={null}>
       <group rotation={[-Math.PI / 2, 0.5, 1]}>
         <group position={[2.432, -1.849, 6.333]}>
           <mesh

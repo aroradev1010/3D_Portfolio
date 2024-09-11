@@ -58,54 +58,18 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: "Podcastr - AI Podcast Platform",
-    desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
+    title: "Tech Art Showcase - Immersive Portfolio with Interactive Elements",
+    desc: "Introducing a vibrant and dynamic portfolio showcasing your creative work. The website's striking blue background, combined with captivating 3D elements, creates a visually stunning and immersive experience.",
     subdesc:
-      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
-    texture: "/textures/project/project1.mp4",
+      "This portfolio is designed to showcase your unique style and talent. The combination of color, 3D effects, and interactivity will leave a lasting impression on visitors.",
+    href: "https://devarora.vercel.app/",
+    texture: "/textures/project/project3.mp4",
     logo: "/assets/project-logo1.png",
     logoStyle: {
-      backgroundColor: "#2A1816",
-      border: "0.2px solid #36201D",
-      boxShadow: "0px 0px 60px 0px #AA3C304D",
-    },
-    spotlight: "/assets/spotlight1.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
-    title: "LiveDoc - Real-Time Google Docs Clone",
-    desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
-    subdesc:
-      "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
-    texture: "/textures/project/project2.mp4",
-    logo: "/assets/project-logo2.png",
-    logoStyle: {
-      backgroundColor: "#13202F",
-      border: "0.2px solid #17293E",
-      boxShadow: "0px 0px 60px 0px #2F6DB54D",
+      backgroundColor: "black",
+
+      border: "0.2px solid #405982",
+      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
     },
     spotlight: "/assets/spotlight2.png",
     tags: [
@@ -129,22 +93,57 @@ export const myProjects = [
         name: "Framer Motion",
         path: "/assets/framer.png",
       },
+      {
+        id: 5,
+        name: "Prismic",
+        path: "/assets/prismic.png",
+      },
     ],
   },
   {
-    title: "CarePulse - Health Management System",
-    desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
+    title: "Reimagined Canvas - Real-Time Google Docs Clone",
+    desc: "ReimaginedCanvas is a creative and visually stunning frontend project, meticulously crafted with Framer Motion to bring dynamic and fluid animations to life. This repository showcases the art of frontend development, presenting a reimagination of design with a focus on innovation and creativity.",
     subdesc:
-      "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
-    texture: "/textures/project/project3.mp4",
-    logo: "/assets/project-logo3.png",
+      "Explore the seamless blend of technology and aesthetics in this project that stands as a testament to the capabilities of Framer Motion.",
+    href: "https://65b1a587b273e30922de7c25--stellar-sunflower-a5ba44.netlify.app/",
+    texture: "/textures/project/project2.mp4",
+    logo: "/assets/project-logo1.png",
     logoStyle: {
-      backgroundColor: "#60f5a1",
-      background:
-        "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
-      border: "0.2px solid rgba(208, 213, 221, 1)",
-      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+      border: "0.2px solid #36201D",
+      backgroundColor: "black",
+    },
+    spotlight: "/assets/spotlight1.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 4,
+        name: "Framer Motion",
+        path: "/assets/framer.png",
+      },
+    ],
+  },
+  {
+    title: "TeeCraft - Tshirt Designing Platform",
+    desc: "Tee Craft is a dynamic web application designed for creative minds who want to bring their T-shirt designs to life. With the power of React.js, Three.js, and Tailwind CSS, Tee Craft enables users to customize T-shirts effortlessly.",
+    subdesc:
+      "Change colors, upload files, and tweak the front logo design, all within an intuitive interface. Leveraging React for seamless interactivity, Three.js for engaging 3D visuals, and Tailwind CSS for a responsive design, Tee Craft is a testament to the fusion of cutting-edge technologies in web development. Dive into the world of personalized fashion with Tee Craft!.",
+    href: "https://thunderous-pegasus-3b214e.netlify.app/",
+    texture: "/textures/project/project1.mp4",
+    logo: "/assets/project-logo2.png",
+    logoStyle: {
+      backgroundColor: "black",
+
+      border: "0.2px solid #46753c",
+      boxShadow: "0px 0px 60px 0px #AA3C304D",
     },
     spotlight: "/assets/spotlight3.png",
     tags: [
@@ -160,85 +159,6 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
-    title: "Horizon - Online Banking Platform",
-    desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
-    subdesc:
-      "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
-    href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
-    texture: "/textures/project/project4.mp4",
-    logo: "/assets/project-logo4.png",
-    logoStyle: {
-      backgroundColor: "#0E1F38",
-      border: "0.2px solid #0E2D58",
-      boxShadow: "0px 0px 60px 0px #2F67B64D",
-    },
-    spotlight: "/assets/spotlight4.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
-    title: "Imaginify - AI Photo Manipulation App",
-    desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
-    subdesc:
-      "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
-    href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
-    texture: "/textures/project/project5.mp4",
-    logo: "/assets/project-logo5.png",
-    logoStyle: {
-      backgroundColor: "#1C1A43",
-      border: "0.2px solid #252262",
-      boxShadow: "0px 0px 60px 0px #635BFF4D",
-    },
-    spotlight: "/assets/spotlight5.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
         name: "Framer Motion",
         path: "/assets/framer.png",
       },
@@ -248,7 +168,7 @@ export const myProjects = [
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
   return {
-    deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.080,
+    deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.08,
     deskPosition: isMobile ? [0.5, -4.5, 0] : [0.55, -5.5, 0],
     cubePosition: isSmall
       ? [4, -5, 0]

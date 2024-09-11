@@ -53,6 +53,7 @@ const Hero = () => {
   const isSmall = useMediaQuery({ maxWidth: 440 });
   const isMobile = useMediaQuery({ maxWidth: 768 });
   const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 });
+  const isLarge = useMediaQuery({ minWidth: 1020 });
 
   const sizes = calculateSizes(isSmall, isMobile, isTablet);
   return (
@@ -73,24 +74,26 @@ const Hero = () => {
 
             <HeroCamera isMobile={isMobile}>
               <HackerRoom
-                scale={6}
-                position={[2.4, -3, 4]}
+                scale={sizes.deskScale}
+                position={sizes.deskPosition}
                 rotation={[0, 0, 0]}
               />
             </HeroCamera>
             <group>
-              {/* <Target position={sizes.targetPosition} /> */}
               <Headphones
-                position={[4.5, 0, 10]}
+                position={sizes.headPhones}
                 scale={0.28}
                 rotation={[0.5, 1, -0.4]}
               />
               <PlaystationVR
                 scale={0.3}
-                position={[-8.5, -5, 0]}
+                position={sizes.playstationVR}
                 rotation={[-0.4, 0.5, 0.2]}
               />
-              <MrPotatoHead scale={0.2} position={[-10.5, 3.5, 0]} />
+              {isTablet ||
+                (isLarge && (
+                  <MrPotatoHead scale={0.2} position={sizes.potatoHead} />
+                ))}
             </group>
             <ambientLight intensity={2} />
             <directionalLight intensity={1} position={[10, 10, 10]} />

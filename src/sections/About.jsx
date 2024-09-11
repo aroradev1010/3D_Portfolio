@@ -29,9 +29,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Dev Arora</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both
-                frontend and backend dev, creating dynamic and responsive
-                websites.
+              I have honed my expertise in both frontend and backend development, creating dynamic, interactive, and responsive websites
               </p>
             </div>
           </div>
@@ -69,9 +67,9 @@ const About = () => {
                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
                 labelsData={[
                   {
-                    lat: 40,
-                    lng: -100,
-                    text: "Rjieka, Croatia",
+                    lat: 28,
+                    lng: 77,
+                    text: "New Delhi, India",
                     color: "white",
                     size: 15,
                   },
@@ -83,7 +81,7 @@ const About = () => {
                 I’m very flexible with time zone communications & locations
               </p>
               <p className="grid-subtext">
-                I&apos;m based in Rjieka, Croatia and open to remote work
+                I&apos;m based in New Delhi, India and open to remote work
                 worldwide.
               </p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />

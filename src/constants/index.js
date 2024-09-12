@@ -46,7 +46,7 @@ export const myProjects = [
     desc: "Introducing a vibrant and dynamic portfolio showcasing your creative work. The website's striking blue background, combined with captivating 3D elements, creates a visually stunning and immersive experience.",
     subdesc:
       "This portfolio is designed to showcase your unique style and talent. The combination of color, 3D effects, and interactivity will leave a lasting impression on visitors.",
-    href: "https://devarora.vercel.app/",
+    href: "https://shape-shifter-portfolio.vercel.app/",
     texture: "/textures/project/project3.mp4",
     logo: "/assets/project-logo1.png",
     logoStyle: {

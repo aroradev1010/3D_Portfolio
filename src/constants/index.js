@@ -91,7 +91,7 @@ export const myProjects = [
       "Admins enjoy a comprehensive dashboard to effortlessly manage posts, users, and comments, ensuring a smooth and organized blogging experience. Join our vibrant platform where ideas flourish and conversations thrive!",
     href: "https://infiniteideashub.onrender.com/",
     texture: "/textures/project/project2.mp4",
-    logo: "/assets/project-logo1.png",
+    logo: "/assets/project-logo3.png",
     logoStyle: {
       border: "0.2px solid #36201D",
       backgroundColor: "black",
@@ -127,6 +127,11 @@ export const myProjects = [
         id: 6,
         name: "MongoDB",
         path: "assets/mongodb.svg",
+      },
+      {
+        id: 7,
+        name: "Redux",
+        path: "assets/redux.png",
       },
     ],
   },
@@ -176,7 +181,7 @@ export const myProjects = [
       " Each detail is meticulously crafted to create an engaging and immersive journey through our most compelling work.",
     href: "https://interactive-imprint.vercel.app/",
     texture: "/textures/project/project4.mp4",
-    logo: "/assets/project-logo2.png",
+    logo: "/assets/project-logo1.png",
     logoStyle: {
       backgroundColor: "black",
 

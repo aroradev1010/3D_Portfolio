@@ -109,9 +109,24 @@ export const myProjects = [
         path: "assets/tailwindcss.png",
       },
       {
+        id: 3,
+        name: "NodeJs",
+        path: "assets/nodejs.png",
+      },
+      {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "ExpressJs",
+        path: "assets/expressjs.png",
+      },
+      {
+        id: 5,
+        name: "Firebase",
+        path: "assets/firebase.png",
+      },
+      {
+        id: 6,
+        name: "MongoDB",
+        path: "assets/mongodb.svg",
       },
     ],
   },
@@ -146,6 +161,11 @@ export const myProjects = [
         name: "Framer Motion",
         path: "/assets/framer.png",
       },
+      {
+        id: 4,
+        name: "ThreeJS",
+        path: "/assets/project-logo2.png",
+      },
     ],
   },
   {
@@ -160,10 +180,10 @@ export const myProjects = [
     logoStyle: {
       backgroundColor: "black",
 
-      border: "0.2px solid #46753c",
+      border: "0.2px solid #36201D",
       boxShadow: "0px 0px 60px 0px #AA3C304D",
     },
-    spotlight: "/assets/spotlight3.png",
+    spotlight: "/assets/spotlight1.png",
     tags: [
       {
         id: 1,

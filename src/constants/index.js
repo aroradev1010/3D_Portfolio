@@ -85,11 +85,11 @@ export const myProjects = [
     ],
   },
   {
-    title: "Reimagined Canvas - Real-Time Google Docs Clone",
-    desc: "ReimaginedCanvas is a creative and visually stunning frontend project, meticulously crafted with Framer Motion to bring dynamic and fluid animations to life. This repository showcases the art of frontend development, presenting a reimagination of design with a focus on innovation and creativity.",
+    title: "Infinite Ideas Hub - Blogging Platform",
+    desc: "Infinite Ideas Hub is a dynamic blog website crafted with the power of MERN (MongoDB, Express.js, React.js, Node.js) stack. Experience seamless user authentication, enabling users to create and share posts. Engage with the community through comments and likes on posts, fostering interaction and connection.",
     subdesc:
-      "Explore the seamless blend of technology and aesthetics in this project that stands as a testament to the capabilities of Framer Motion.",
-    href: "https://65b1a587b273e30922de7c25--stellar-sunflower-a5ba44.netlify.app/",
+      "Admins enjoy a comprehensive dashboard to effortlessly manage posts, users, and comments, ensuring a smooth and organized blogging experience. Join our vibrant platform where ideas flourish and conversations thrive!",
+    href: "https://infiniteideashub.onrender.com/",
     texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo1.png",
     logoStyle: {
@@ -122,6 +122,40 @@ export const myProjects = [
       "Change colors, upload files, and tweak the front logo design, all within an intuitive interface. Leveraging React for seamless interactivity, Three.js for engaging 3D visuals, and Tailwind CSS for a responsive design, Tee Craft is a testament to the fusion of cutting-edge technologies in web development. Dive into the world of personalized fashion with Tee Craft!.",
     href: "https://thunderous-pegasus-3b214e.netlify.app/",
     texture: "/textures/project/project1.mp4",
+    logo: "/assets/project-logo2.png",
+    logoStyle: {
+      backgroundColor: "black",
+
+      border: "0.2px solid #46753c",
+      boxShadow: "0px 0px 60px 0px #AA3C304D",
+    },
+    spotlight: "/assets/spotlight3.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "Framer Motion",
+        path: "/assets/framer.png",
+      },
+    ],
+  },
+  {
+    title:
+      "Interactive Imprint - Immersive Portfolio with Interactive Elements",
+    desc: "Explore an electrifying showcase of creativity with our vibrant and dynamic portfolio. Immerse yourself in a visually captivating experience, where a striking blue backdrop sets the stage for mesmerizing 3D elements.",
+    subdesc:
+      " Each detail is meticulously crafted to create an engaging and immersive journey through our most compelling work.",
+    href: "https://interactive-imprint.vercel.app/",
+    texture: "/textures/project/project4.mp4",
     logo: "/assets/project-logo2.png",
     logoStyle: {
       backgroundColor: "black",

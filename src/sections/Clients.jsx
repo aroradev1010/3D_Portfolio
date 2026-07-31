@@ -16,7 +16,7 @@ const Clients = () => {
                   <img
                     src={item.img}
                     alt="reviewer"
-                    className="w-12 h-12 rounded-full"
+                    className="w-12 h-12 rounded-full object-cover"
                   />
                   <div className="flex flex-col">
                     <p className="font-semibold text-white-800">{item.name}</p>

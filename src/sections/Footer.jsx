@@ -11,9 +11,9 @@ const Footer = () => {
           <a target="_blank" href="https://github.com/aroradev1010">
         <div className="social-icon">
             <img
-              src="/assets/github.svg"
-              alt="instagram"
-              className="w-1/2 h-1/2"
+              src="/assets/github.png"
+              alt="github"
+              className="w-2/3 h-2/3"
             />
         </div>
           </a>

@@ -218,49 +218,49 @@ export const myProjects = [
       },
     ],
   },
-  {
-    title: "Tech Art Showcase - Immersive Portfolio with Interactive Elements",
-    desc: "Introducing a vibrant and dynamic portfolio showcasing your creative work. The website's striking blue background, combined with captivating 3D elements, creates a visually stunning and immersive experience.",
-    subdesc:
-      "This portfolio is designed to showcase your unique style and talent. The combination of color, 3D effects, and interactivity will leave a lasting impression on visitors.",
-    href: "https://shape-shifter-portfolio.vercel.app/",
-    texture: "/textures/project/project3.mp4",
-    logo: "/assets/project-logo1.png",
-    logoStyle: {
-      backgroundColor: "black",
+  // {
+  //   title: "Tech Art Showcase - Immersive Portfolio with Interactive Elements",
+  //   desc: "Introducing a vibrant and dynamic portfolio showcasing your creative work. The website's striking blue background, combined with captivating 3D elements, creates a visually stunning and immersive experience.",
+  //   subdesc:
+  //     "This portfolio is designed to showcase your unique style and talent. The combination of color, 3D effects, and interactivity will leave a lasting impression on visitors.",
+  //   href: "https://shape-shifter-portfolio.vercel.app/",
+  //   texture: "/textures/project/project3.mp4",
+  //   logo: "/assets/project-logo1.png",
+  //   logoStyle: {
+  //     backgroundColor: "black",
 
-      border: "0.2px solid #405982",
-      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
-    },
-    spotlight: "/assets/spotlight2.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-      {
-        id: 5,
-        name: "Prismic",
-        path: "/assets/prismic.png",
-      },
-    ],
-  },
+  //     border: "0.2px solid #405982",
+  //     boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+  //   },
+  //   spotlight: "/assets/spotlight2.png",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "React.js",
+  //       path: "/assets/react.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "TailwindCSS",
+  //       path: "assets/tailwindcss.png",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "TypeScript",
+  //       path: "/assets/typescript.png",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "Framer Motion",
+  //       path: "/assets/framer.png",
+  //     },
+  //     {
+  //       id: 5,
+  //       name: "Prismic",
+  //       path: "/assets/prismic.png",
+  //     },
+  //   ],
+  // },
   // {
   //   title:
   //   "Interactive Imprint - Immersive Portfolio with Interactive Elements",
